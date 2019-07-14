@@ -1,0 +1,88 @@
+[
+    {
+      "id": 1,
+      "name": "GIR Pup",
+      "image": "https://vignette.wikia.nocookie.net/zimwiki/images/6/64/GIR_and_Monkey_1.jpg/revision/latest/scale-to-width-down/200?cb=20110211180702",
+      "occupation": "Fry Cook",
+      "location": "A Pineapple Under the Sea"
+    },
+    {
+      "id": 2,
+      "name": "Gir",
+      "image": "https://vignette.wikia.nocookie.net/zimwiki/images/0/00/Gir.png/revision/latest/scale-to-width-down/160?cb=20130712225209",
+      "occupation": "Restaurant Owner",
+      "location": "A Giant Anchor"
+    },
+    {
+      "id": 3,
+      "name": "Skoodge",
+      "image": "https://vignette.wikia.nocookie.net/zimwiki/images/c/cf/Invader_Skoodge_full_body.png/revision/latest/scale-to-width-down/250?cb=20130704195844",
+      "occupation": "Cashier",
+      "location": "An Easter Island Head"
+    },
+    {
+      "id": 4,
+      "name": "Dib",
+      "image": "https://vignette.wikia.nocookie.net/zimwiki/images/f/fc/Dib_by_rondex.png/revision/latest/scale-to-width-down/260?cb=20160412202139",
+      "occupation": "Boy Genius",
+      "location": "A Secret Laboratory"
+    },
+    {
+      "id": 5,
+      "name": "Roboparents",
+      "image": "https://vignette.wikia.nocookie.net/zimwiki/images/f/ff/Roboparents.transparent.png/revision/latest/scale-to-width-down/250?cb=20170816070739",
+      "occupation": "A Cowardly Dog",
+      "location": "Nowhere, Kansas"
+    },
+    {
+      "id": 6,
+      "name": "GIR",
+      "image": "https://vignette.wikia.nocookie.net/zimwiki/images/4/4f/Duty_duty_duty_duty_duuuu.png/revision/latest/scale-to-width-down/100?cb=20120127001036",
+      "occupation": "Student",
+      "location": "Bluffington"
+    },
+    {
+      "id": 7,
+      "name": "Gaz",
+      "image": "https://vignette.wikia.nocookie.net/zimwiki/images/1/16/Gaz_artwork_full.png/revision/latest/scale-to-width-down/241?cb=20121202182454",
+      "occupation": "Looney Toon",
+      "location": "A Rabbit Burrow"
+    },
+    {
+      "id": 8,
+      "name": "Ms. Bitters",
+      "image": "https://vignette.wikia.nocookie.net/zimwiki/images/f/f8/Bittersweet2.png/revision/latest/scale-to-width-down/200?cb=20161215194447",
+      "occupation": "Ladies Man",
+      "location": "Aron City"
+    },
+
+    {
+      "id": 10,
+      "name": "Invader Zim",
+      "image": "https://vignette.wikia.nocookie.net/zimwiki/images/e/ea/ProfMemTrans.png/revision/latest/scale-to-width-down/150?cb=20170227022859",
+      "occupation": "Cashier",
+      "location": "O-Town, California"
+    },
+    {
+      "id": 11,
+      "name": "MiniMoose",
+      "image": "https://vignette.wikia.nocookie.net/zimwiki/images/0/00/Minimoose.transparent.png/revision/latest/scale-to-width-down/250?cb=20161124185541",
+      "occupation": "Superhero",
+      "location": "Earth"
+    },
+    {
+      "id": 12,
+      "name": "Tak",
+      "image": "https://vignette.wikia.nocookie.net/zimwiki/images/c/c4/TakTransparent.png/revision/latest/scale-to-width-down/165?cb=20170415035525",
+      "occupation": "Ahhhh! A Real Monster!",
+      "location": "Under a City Dump"
+    },
+    {
+      "id": 9,
+      "name": "ZIM",
+      "image": "https://vignette.wikia.nocookie.net/zimwiki/images/7/72/Art_Zimyelling.png/revision/latest/scale-to-width-down/187?cb=20120814185817",
+      "occupation": "Destroyer of Worlds",
+      "location": "Earth"
+    }
+  ]
+  

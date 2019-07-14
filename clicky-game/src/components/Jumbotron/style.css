@@ -1,0 +1,14 @@
+.jumbotron{
+ background: url("../../assets/images/zim.jpg")  no-repeat center;
+    background-size: cover ;
+    
+}
+
+#gameStatus{
+    background: lightsteelblue;
+    opacity: .5;    
+    
+    /* position: reative; */
+    
+    }
+    
