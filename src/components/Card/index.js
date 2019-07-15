@@ -2,12 +2,16 @@ import React from "react";
 import "./style.css";
 
 function Card(props) {
+    var style = {
+        backgroundImage: "url("+props.image+")"
+    }
     return (
-<div className="card cusCard" onClick={() => props.checkGuess(props.id)} >
+<div role="img" className="cusCard" onClick={() => props.checkGuess(props.id) 
+    } style={style}/>
       
-        <img className="card-img imgCus" src={props.image} /> 
       
-</div>
+      
+// </div>
 
 );
 }

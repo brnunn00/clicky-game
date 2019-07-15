@@ -29,15 +29,13 @@
     },
     {
       "id": 5,
-      "name": "Roboparents",
-      "image": "https://vignette.wikia.nocookie.net/zimwiki/images/f/ff/Roboparents.transparent.png/revision/latest/scale-to-width-down/250?cb=20170816070739",
-      "occupation": "A Cowardly Dog",
-      "location": "Nowhere, Kansas"
+      "name": "MoreGir",
+      "image": "https://12books12monthsdotcom.files.wordpress.com/2011/11/gir_salute.png?w=736"
     },
     {
       "id": 6,
       "name": "GIR",
-      "image": "https://vignette.wikia.nocookie.net/zimwiki/images/4/4f/Duty_duty_duty_duty_duuuu.png/revision/latest/scale-to-width-down/100?cb=20120127001036",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLIMVziS6fEt3x2wA39GleS0hx_a16zAom3eg4--93Ud0MIwgl7w",
       "occupation": "Student",
       "location": "Bluffington"
     },
@@ -50,10 +48,8 @@
     },
     {
       "id": 8,
-      "name": "Ms. Bitters",
-      "image": "https://vignette.wikia.nocookie.net/zimwiki/images/f/f8/Bittersweet2.png/revision/latest/scale-to-width-down/200?cb=20161215194447",
-      "occupation": "Ladies Man",
-      "location": "Aron City"
+      "name": "gir",
+      "image": "http://archer.gamebanana.com/img/ico/sprays/gir_sitting.png"
     },
 
     {

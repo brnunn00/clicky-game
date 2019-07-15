@@ -16,7 +16,8 @@ class Game extends Component {
         imageIds: [],
         bestScore: 0,
         currentScore: 0,
-        gameMessage: "Click an image to begin"
+        gameMessage: "Click an image to begin",
+        gameMessageClass:""
 
     };
 
@@ -42,6 +43,7 @@ return anything;
           bestScore = newScore;
       }
       if (clickArray.indexOf(guessId) > -1){
+          
           this.gameOver();
       } else if(bestScore == imageArr.length ){
 this.youWin();
@@ -49,7 +51,7 @@ this.youWin();
           clickArray.push(guessId);
          
           let newArr = this.shuffleMe(this.state.images);
-          this.setState({bestScore: bestScore, currentScore:newScore, clickedCards: clickArray, images:newArr
+          this.setState({gameMessageClass: "correct",bestScore: bestScore, currentScore:newScore, clickedCards: clickArray, images:newArr
         , gameMessage: "Correct! Keep going but don't pick an image you've already picked!"})
       }
     }
@@ -57,7 +59,7 @@ this.youWin();
     gameOver = () => {
         let newArr = this.shuffleMe(this.state.images);
 
-        this.setState({currentScore:0,clickedCards:[], images:newArr, gameMessage: "Aww you lost. Game Over! Keep going until you get all 12, unless you're a chicken"})
+        this.setState({gameMessageClass: "wrong",currentScore:0,clickedCards:[], images:newArr, gameMessage: "Aww you lost. Game Over! Keep going until you get all 12, unless you're a chicken"})
     }
     youWin = () => {
         let newArr = this.shuffleMe(this.state.images);
@@ -71,10 +73,10 @@ this.youWin();
                     <li className="ml-auto">Current Score: {this.state.currentScore} |
                   Best Score: {this.state.bestScore} </li>
                 </Navbar>
-                <Jumbotron message={this.state.gameMessage}/>
+                <Jumbotron message={this.state.gameMessage} classState ={this.state.gameMessageClass}/>
                 <Container>
-                <Col size="md-12"> 
-            <CardContainer>
+                {/* <Col size="md-12"> 
+            <CardContainer> */}
                 {this.state.images.map(image => (
                     <div class="animate fadeInLeft">
                     <Card
@@ -86,8 +88,8 @@ this.youWin();
                     />
                     </div>
                 ))}
-            </CardContainer>
-            </Col>
+            {/* </CardContainer>
+            </Col> */}
             </Container>
             </div>
         )

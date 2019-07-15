@@ -7,7 +7,7 @@ export default function Navbar({ children }) {
   return (
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
        <a class = "navbar-brand" href="/">Clicky Game</a>
-      <ul class = "navbar-nav mr-2">
+      <ul class = "navbar-nav ml-auto">
        
         {children}
       </ul>
