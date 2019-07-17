@@ -1,0 +1,26 @@
+.navbar{
+position: fixed;
+top: 0;
+width: 100%;
+}
+
+#gameStatus2{
+    font-size: larger;
+    color: white;
+    font-weight: bold;
+    
+}
+
+.scoreCard{
+    color: white;
+}
+
+.wrong{
+    color: red !important;
+    animation-duration: 3s;
+}
+.correct{
+
+    color: green !important;
+    
+}

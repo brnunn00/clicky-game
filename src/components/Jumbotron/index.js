@@ -6,7 +6,7 @@ function Jumbotron(props) {
       style={{ height: 300, clear: "both", paddingTop: 120, textAlign: "center"}}
       className="jumbotron jumbotron-fluid">
     
-         <h2 class={props.classState} id="gameStatus"> {props.message}</h2>
+        
     
     </div>
   );

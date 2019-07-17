@@ -59,7 +59,7 @@ this.youWin();
     gameOver = () => {
         let newArr = this.shuffleMe(this.state.images);
 
-        this.setState({gameMessageClass: "wrong",currentScore:0,clickedCards:[], images:newArr, gameMessage: "Aww you lost. Game Over! Keep going until you get all 12, unless you're a chicken"})
+        this.setState({gameMessageClass: "animate pulse wrong",currentScore:0,clickedCards:[], images:newArr, gameMessage: "Aww you lost. Game Over! Keep going until you get all 12, unless you're a chicken"})
     }
     youWin = () => {
         let newArr = this.shuffleMe(this.state.images);
@@ -68,12 +68,10 @@ this.youWin();
     render() {
         return (
           <div>
-                <Navbar>
-                    
-                    <li className="ml-auto">Current Score: {this.state.currentScore} |
-                  Best Score: {this.state.bestScore} </li>
-                </Navbar>
-                <Jumbotron message={this.state.gameMessage} classState ={this.state.gameMessageClass}/>
+                <Navbar message={this.state.gameMessage} classState ={this.state.gameMessageClass} score= {this.state.currentScore}
+                bestscore={this.state.bestScore}/>                   
+                   
+                <Jumbotron />
                 <Container>
                 {/* <Col size="md-12"> 
             <CardContainer> */}
